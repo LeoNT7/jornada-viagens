@@ -13,17 +13,18 @@
   background-size: cover;
 }
 
-.destination-items h4 {
+.destinations .item header h4 {
   font-size: 28px;
+  margin: 24px 0;
 }
 
-.destination-items p {
+.destinations .item p {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
 }
 
-.destinations .button {
+.destinations footer .button {
   border-radius: 8px;
   margin: 24px 0 40px;
   min-width: 312px;
