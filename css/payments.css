@@ -1,52 +1,57 @@
-/* .image-content {
+.payments .image-gallery {
   display: grid;
-  justify-items: stretch;
-  grid-template-columns: 1fr;
-  column-gap: 24px;
-} */
-
-.content-text {
-  margin: 24px 0 24px;
-}
-.image-content .image.bag,
-.image.passport {
-  width: 144px;
-  height: 254px;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
 }
 
-.image-content .image.people {
-  width: 312px;
-  height: 182px;
-}
-
-.bag {
+.payments .content-container .image-gallery .first {
   background: url(../img/bag-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.passport {
+.payments .content-container .image-gallery .second {
   background: url(../img/passport-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.people {
+.payments .content-container .image-gallery .thirdy {
   background: url(../img/people-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.image-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* grid-column-gap: 24px;
-  grid-row-gap: 24px; */
+.payments .content-container .image-gallery .thirdy.colspan-2 {
+  grid-column: span 2;
 }
 
-.bag {
-  grid-area: 1 / 1 / 3 / 2;
+@media screen and (min-width: 768px) {
+  .payments .content-container .image-gallery .image.first {
+    background: url(../img/bag-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.second {
+    background: url(../img/passport-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/people-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
 }
-.passport {
-  grid-area: 1 / 2 / 3 / 3;
-}
-.people {
-  grid-area: 3 / 1 / 4 / 3;
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .image-gallery {
+    width: 790px;
+  }
 }
