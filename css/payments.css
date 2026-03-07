@@ -7,12 +7,12 @@
   width: 100%;
 }
 
-.payments .content-container .image-gallery .first {
+.payments .content-container .image-gallery .image.first {
   background: url(../img/bag-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.payments .content-container .image-gallery .second {
+.payments .content-container .image-gallery .image.second {
   background: url(../img/passport-mobile.jpg) no-repeat;
   background-size: cover;
 }
@@ -53,5 +53,6 @@
   }
   .payments .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
