@@ -31,3 +31,17 @@
   line-height: 32px;
   color: var(--text-secondary-color);
 }
+
+@media screen and (min-width: 768px) {
+  .hero-packages .hero-packages-img {
+    height: 620px;
+  }
+  .hero-packages-content {
+    padding: 209px 69px 107.74px 120px;
+  }
+  .hero-packages .hero-packages-content p {
+    font-size: 24px;
+    line-height: 40px;
+    color: var(--text-secondary-color);
+  }
+}
