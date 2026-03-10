@@ -1,15 +1,33 @@
-/* .hero-packages {
-  width: auto;
+.hero-packages {
+  width: 100%;
 }
 
 .hero-packages .hero-packages-img {
-  height: 460px;
-  background: url(/img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
+  height: 520px;
+  background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
   background-size: cover;
-  background-position: -507px;
+  background-position: 100%;
+}
+
+.hero-packages-content {
+  text-align: start;
+  padding: 65px 24px;
+}
+
+.hero-packages .section-title,
+.section-title hr {
+  display: inline-block;
+  text-align: start;
 }
 
 .hero-packages .section-title h2 {
   font-size: 48px;
-  margin: 65px 24px;
-} */
+  color: var(--text-secondary-color);
+  text-align: start;
+}
+
+.hero-packages .hero-packages-content p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+}
