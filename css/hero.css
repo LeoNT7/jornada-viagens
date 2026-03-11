@@ -88,7 +88,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
@@ -113,6 +113,11 @@
   .hero-packages .hero-packages-img {
     background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
     background-size: cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-packages .hero-packages-content {
+    width: 1200px;
   }
 }
 
