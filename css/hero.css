@@ -9,7 +9,7 @@
   background-size: cover;
 }
 .bottom-hero .hero-img {
-  background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
+  background: url(../img/bg-bottom-hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -65,7 +65,7 @@
   }
   .bottom-hero .hero-img {
     height: 400px;
-    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
+    background: url(../img/bg-bottom-hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -103,7 +103,7 @@
 
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
+    background: url(../img/bg-bottom-hero-desk.jpg) no-repeat;
     background-size: cover;
   }
   .hero h2 {
