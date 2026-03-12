@@ -78,7 +78,7 @@
   }
   /* PACKAGES TRAVEL */
 
-  .button {
+  .payments .content-container .text-content .button {
     display: none;
   }
 
@@ -115,4 +115,5 @@
     margin: 0;
   }
   /* PACKAGES TRAVEL */
+
 }
