@@ -27,6 +27,23 @@
 }
 
 /* PACKAGES TRAVEL */
+.travel-payments .section-title h2 {
+  font-size: 32px;
+}
+
+.travel-payments .content-container h2 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+.travel-payments .content-container h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.travel-payments .text-content p {
+  margin-bottom: 24px;
+}
+
 .travel-payments .content-container .image-gallery .image.first {
   background: url(../img/travel-packages/gallery1-mobile.png) no-repeat;
 }
