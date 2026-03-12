@@ -41,6 +41,7 @@
 }
 
 .travel-payments .text-content p {
+  line-height: 32px;
   margin-bottom: 24px;
 }
 
@@ -76,6 +77,11 @@
     background-size: cover;
   }
   /* PACKAGES TRAVEL */
+
+  .button {
+    display: none;
+  }
+
   .travel-payments .content-container .image-gallery .image.first {
     background: url(../img/travel-packages/gallery1-tablet.png) no-repeat;
     background-size: cover;
